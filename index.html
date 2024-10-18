@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор ИМТ</title>
+    <link rel="stylesheet" href="css\style.css">
+
+    <link rel="shortcut icon" href="img\icon.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2b2a2a">
+    <link rel="icon" href="img\icons\icon-128x128.png">
+    <link rel="apple-touch-icon" href="img\icons\icon-192x192.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#2b2a2a">
+</head>
+<body>
+    <header><div class="container-header"><div class="logo"><img src="img\icon.png"></div></header>
+    <div class="container">
+    <div class="input-els">    
+        <label for="height">Рост в см.</label>
+        <input type="number" name="height" id="height">
+    </div>
+    <div class="input-els">    
+        <label for="weight">Вес в кг.</label>
+        <input type="number" name="weight" id="weight">
+    </div>
+    <div class="input-els">    
+        <label for="IMT">Ваш ИМТ</label>
+        <input type="number" name="IMT" readonly id="output">
+    </div>
+    <div class="input-els">    
+        <button id="btn">Рассчитать ИМТ</button>
+    </div>
+    </div>
+    <script src="js\app.js"></script>
+</body>
+</html>

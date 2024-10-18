@@ -1,0 +1,29 @@
+body{margin: 0;font-size: 2rem;background-color:rgb(56, 51, 51)}
+.container{margin: 0 auto; max-width: 576px;padding: 10px;}
+.input-els label{
+    display: block;
+    padding-top: 2%;
+    color: white;
+}
+.input-els input{
+    display: block;
+    padding-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 2rem;
+    border-radius:5px ;
+}
+.input-els button{
+    display: block;
+    margin: 3% auto;
+    font-size: 2rem;
+    background-color:slateblue;
+    border-radius: 100px;
+    color: white;
+}
+.container-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{max-width: 125px;max-height: 125px;}
